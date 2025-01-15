@@ -1,0 +1,7 @@
+spring:
+  # H2 Database ??
+  datasource:
+    url: 'jdbc:h2:mem:mydb'   # H2 DB ?? ?? (In-Memory Mode)
+    usermame: pass_local
+    password: passlocal123
+    driver-class-name: org.h2.Driver
